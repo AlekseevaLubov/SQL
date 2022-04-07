@@ -92,7 +92,7 @@ create table salary (
 
 select * from salary;
 
--- 4.Наполнить таблицу salary 15 строками
+-- 4.Наполнить таблицу salary 16 строками
 insert into salary(monthly_salary)
 values
 (1000),
