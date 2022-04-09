@@ -151,7 +151,7 @@ select salary.monthly_salary from salary
 left join employee_salary on employee_salary.salary_id = salary.id 
 left join roles_employee on roles_employee.employee_id = employee_salary.employee_id 
 left join roles on roles.id = roles_employee.role_id 
-where roles.role_name like 'Junior%' and roles.role_name like '%QA engineer'
+where roles.role_name like 'Junior%QA%'
 ;
 
 -- 21. Вывести среднюю зарплату всех Junior специалистов
